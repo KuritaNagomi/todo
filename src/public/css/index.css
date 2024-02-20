@@ -82,11 +82,6 @@
 
 .todo-table__inner{
     width: 100%;
-
-}
-
-.todo-table__row{
-    border-bottom: 1px solid #ddd;
 }
 
 .todo-table__header{
@@ -94,10 +89,15 @@
     width: 20%;
     text-align: left;
     font-weight: bold;
+    border-bottom: 1px solid #ddd;
 }
 
 .todo-table__header-span{
     margin-right: 40%;
+}
+
+.todo-table__item{
+    border-bottom: 1px solid #ddd;
 }
 
 .todo-table__item:first-of-type{
@@ -128,7 +128,7 @@
 }
 
 .update-form__button{
-    width: 50px;
+    width: 100px;
 }
 
 .update-form__button-submit{
@@ -149,4 +149,8 @@
     background: #ff0000;
     color: #fff;
     cursor: pointer;
+}
+
+.todo-table__row {
+    border-bottom: 1px solid #ddd;
 }

@@ -46,7 +46,7 @@
         <form class="search-form" action="/todos/search" method="get">
             @csrf
             <div class="search-form__item">
-                <input class="search-form__item-input" type="text" name="keyword" value="{{ old('keyword') }}">/>
+                <input class="search-form__item-input" type="text" name="keyword" value="{{ old('keyword') }}">
                 <select name="category_id" class="search-form__category-select">
                     @foreach($categories as $category)
                         <option value="{{ $category->id }}">{{ $category['name'] }}</option>
